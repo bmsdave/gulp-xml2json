@@ -1,8 +1,8 @@
 {
-  "name": "gulp-xml2json",
-  "version": "0.1.5",
+  "name": "gulp-x2j",
+  "version": "0.2.2",
   "description": "xml to json using gulp",
-  "repository": "https://github.com/DataGarage/gulp-xml2json",
+  "repository": "https://github.com/bmsdave/gulp-xml2json.git",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -22,9 +22,13 @@
     "xml2js": "~0.4.1",
     "gulp-rename": "~1.1.0"
   },
-  "author": "chilijung",
-  "license": "MIT",
   "devDependencies": {
     "mocha": "~1.17.1"
-  }
+  },
+  "author": "bmsdave@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmsdave/gulp-xml2json/issues"
+  },
+  "homepage": "https://github.com/bmsdave/gulp-xml2json"
 }
