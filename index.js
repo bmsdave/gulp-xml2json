@@ -37,7 +37,7 @@ module.exports = function (options) {
 					var parser = new xml2js.Parser(options);
 					parser.parseString(data, function (err, result) {
 						if(err) throw new Error(err);
-						gutil.log('gulp-xml2json:', gutil.colors.green('✔ ') + file.relative);
+						gutil.log('gulp-xml2json:', gutil.colors.green('ok ') + file.relative);
 						file.contents = new Buffer(JSON.stringify(result));
 						file.path = gutil.replaceExtension(file.path, '.json');
 						cb(null, file);
