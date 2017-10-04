@@ -1,6 +1,6 @@
 {
   "name": "gulp-x2j",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "xml to json using gulp",
   "repository": "https://github.com/bmsdave/gulp-xml2json.git",
   "main": "index.js",
